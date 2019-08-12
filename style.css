@@ -1,0 +1,86 @@
+
+body{
+
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: black;
+
+}
+
+h1{
+    color: rgb(90, 52, 90);
+    font-family: 'Neucha', cursive;
+
+}
+
+li{
+    list-style: none;
+    padding-left: 20px;
+   
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.banner{
+
+    background: #ff6e7f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #ff6e7f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.xpto{
+
+    text-align: center;
+}
+
+.menu {
+
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    background-color: rgba(118, 175, 170, 0.4);
+    justify-content: space-between;
+}
+
+.logo{
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    width: 132px;
+    height: 40px;
+    background-size: 132px 40px;
+    position: absolute;
+
+}
+
+.lista{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.lista li{
+    padding-left: 15 px;
+}
+
+button{
+    background-color: rgb(27,158, 48);
+    color: #fff;
+    border: solid transparent 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    padding-left:30px;
+
+}
+
+button:hover{
+    background-color: lime;
+    
+}
+
+a:hover{
+ color: lime; 
+}
